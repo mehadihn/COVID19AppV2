@@ -49,15 +49,20 @@
 
 
 
+
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
 
+
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="2dp"
                     android:orientation="horizontal">
 
                     <androidx.cardview.widget.CardView
@@ -68,58 +73,38 @@
                         app:cardElevation="2dp">
 
                         <RelativeLayout
-                            android:id="@+id/worldwide"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:padding="8dp">
+                            android:padding="0dp">
 
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:fontFamily="@font/roboto_bold"
-                                android:text="Worldwide Statistics"
-                                android:textColor="#5E5E5E"
-                                android:textSize="18dp" />
+                            <LinearLayout
+                                android:id="@+id/air"
+                                android:background="#f5f5f5"
+                                android:weightSum="4"
+                                android:layout_width="match_parent"
+                                android:gravity="center"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
 
-                            <ImageView
-                                android:layout_width="80dp"
-                                android:layout_height="80dp"
-                                android:layout_alignParentRight="true"
-                                android:layout_alignParentBottom="true"
-                                android:src="@drawable/world"/>
+                                <TextView
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_weight="4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/roboto_bold"
+                                    android:text="Air Quality"
+                                    android:textColor="#5E5E5E"
+                                    android:textSize="25sp" />
 
-                        </RelativeLayout>
+                                <ImageView
+                                    android:layout_width="80dp"
+                                    android:layout_height="80dp"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_alignParentBottom="true"
+                                    android:src="@drawable/wind" />
 
-                    </androidx.cardview.widget.CardView>
 
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="160dp"
-                        android:layout_height="120dp"
-                        android:layout_marginLeft="18dp"
-                        android:layout_weight="1"
-                        app:cardCornerRadius="8dp"
-                        app:cardElevation="2dp">
-
-                        <RelativeLayout
-                            android:id="@+id/env"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:padding="8dp">
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:fontFamily="@font/roboto_bold"
-                                android:text="Environmental Factors"
-                                android:textColor="#5E5E5E"
-                                android:textSize="18dp" />
-
-                            <ImageView
-                                android:layout_width="80dp"
-                                android:layout_height="80dp"
-                                android:layout_alignParentRight="true"
-                                android:layout_alignParentBottom="true"
-                                android:src="@drawable/trees" />
+                            </LinearLayout>
 
                         </RelativeLayout>
 
@@ -143,25 +128,93 @@
                         app:cardElevation="2dp">
 
                         <RelativeLayout
-                            android:id="@+id/hospital"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:padding="8dp">
+                            android:padding="0dp">
 
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:fontFamily="@font/roboto_bold"
-                                android:text="Hospitals"
-                                android:textColor="#5E5E5E"
-                                android:textSize="18dp" />
+                            <LinearLayout
+                                android:id="@+id/water"
+                                android:background="#f5f5f5"
+                                android:weightSum="4"
+                                android:layout_width="match_parent"
+                                android:gravity="center"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
 
-                            <ImageView
-                                android:layout_width="80dp"
-                                android:layout_height="80dp"
-                                android:layout_alignParentRight="true"
-                                android:layout_alignParentBottom="true"
-                                android:src="@drawable/medical" />
+                                <TextView
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_weight="4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/roboto_bold"
+                                    android:text="Water Quality"
+                                    android:textColor="#5E5E5E"
+                                    android:textSize="25sp" />
+
+                                <ImageView
+                                    android:layout_width="80dp"
+                                    android:layout_height="80dp"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_alignParentBottom="true"
+                                    android:src="@drawable/faucet" />
+
+
+                            </LinearLayout>
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="2dp"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="160dp"
+                        android:layout_height="120dp"
+                        android:layout_weight="1"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="2dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="0dp">
+
+                            <LinearLayout
+                                android:id="@+id/light"
+                                android:background="#f5f5f5"
+                                android:weightSum="4"
+                                android:layout_width="match_parent"
+                                android:gravity="center"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_weight="4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:fontFamily="@font/roboto_bold"
+                                    android:text="Reduce of Light Pollution"
+                                    android:textColor="#5E5E5E"
+                                    android:textSize="25sp" />
+
+                                <ImageView
+                                    android:layout_width="80dp"
+                                    android:layout_height="80dp"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_alignParentBottom="true"
+                                    android:src="@drawable/idea" />
+
+
+                            </LinearLayout>
 
                         </RelativeLayout>
 
@@ -172,8 +225,10 @@
 
 
 
-
             </LinearLayout>
+
+
+
 
         </ScrollView>
     </RelativeLayout>

@@ -2,7 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.noobs.impactsofcovid_19">
 
-
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -12,7 +11,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".env"></activity>
+        <activity android:name=".light"></activity>
+        <activity android:name=".water" />
+        <activity android:name=".air" />
+        <activity android:name=".env" />
         <activity android:name=".worldsta" />
         <activity android:name=".MainActivity">
             <intent-filter>
