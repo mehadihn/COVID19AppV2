@@ -19,7 +19,7 @@ import java.util.Calendar;
 import static android.icu.lang.UCharacter.GraphemeClusterBreak.V;
 
 public class MainActivity extends AppCompatActivity {
-    private RelativeLayout newsLa;
+    private RelativeLayout env;
     private RelativeLayout banglaAct;
     private RelativeLayout worldAct;
     private RelativeLayout hospital;
@@ -56,6 +56,18 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
+
+        env = findViewById(R.id.env);
+        env.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, env.class);
+                startActivity(i);
+
+            }
+        });
+
+
 
 
 
