@@ -10,7 +10,7 @@ import android.widget.LinearLayout;
 
 public class env extends AppCompatActivity {
     private ImageView backbutton;
-    private LinearLayout air, light, water;
+    private LinearLayout air, light, water, deforest, hunting, industry;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,6 +53,36 @@ public class env extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(env.this, light.class);
+                startActivity(i);
+            }
+        });
+
+        deforest = findViewById(R.id.deforest);
+
+        deforest.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(env.this, Deforestation.class);
+                startActivity(i);
+            }
+        });
+
+        hunting = findViewById(R.id.hunting);
+
+        hunting.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(env.this, Hunting.class);
+                startActivity(i);
+            }
+        });
+
+        industry = findViewById(R.id.industry);
+
+        industry.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(env.this, Industry.class);
                 startActivity(i);
             }
         });

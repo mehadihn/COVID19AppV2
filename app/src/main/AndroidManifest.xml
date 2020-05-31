@@ -11,7 +11,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".prevention"></activity>
+        <activity android:name=".Industry"></activity>
+        <activity android:name=".Hunting" />
+        <activity android:name=".Deforestation" />
+        <activity android:name=".prevention" />
         <activity android:name=".light" />
         <activity android:name=".water" />
         <activity android:name=".air" />

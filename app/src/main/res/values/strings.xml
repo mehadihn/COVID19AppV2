@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Impacts of COVID-19</string>
     <string name="air">
-        <a href = " https://waqi.info/">To get real time view click here.</a>
+        <a href=" https://waqi.info/">To get real time view click here.</a>
 
     </string>
 </resources>

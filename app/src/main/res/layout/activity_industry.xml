@@ -5,8 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0099cb"
-    tools:context=".prevention"
+    android:background="#31f766"
+    tools:context=".Industry"
     android:orientation="vertical">
 
     <LinearLayout
@@ -28,7 +28,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="4"
             android:fontFamily="@font/roboto_bold"
-            android:text="Prevention"
+            android:text="ABCD"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
             android:textSize="25sp" />
@@ -53,68 +53,66 @@
                 android:orientation="vertical">
 
 
+                <TextView
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_regular"
+                    android:textSize="20sp"
+
+                    android:text="In covid-19 period, people are staying in their home than before. For that,artificial traffic light are using less in cities which
+have been saved our energy.Therefore, we can enjoy stars in night sky clearly."/>
+
+
+
+
+
+
+
                 <ImageView
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
                     android:id="@+id/p1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>
 
-                <ImageView
-                    android:id="@+id/p2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
 
-                <ImageView
-                    android:id="@+id/p3"
+                <TextView
+                    android:padding="5dp"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_regular"
+                    android:textSize="15sp"
 
-                <ImageView
-                    android:id="@+id/p4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:text="Credits: NASA"/>
 
-                <ImageView
-                    android:id="@+id/p5"
+                <TextView
+                    android:id="@+id/airtext"
+                    android:padding="5dp"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_bold"
+                    android:textSize="20sp"
+                    android:text="Click Here to get real time view"/>
 
-                <ImageView
-                    android:id="@+id/p6"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
 
-                <ImageView
-                    android:id="@+id/p7"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
 
-                <ImageView
-                    android:id="@+id/p8"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
 
-                <ImageView
-                    android:id="@+id/p9"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
 
-                <ImageView
-                    android:id="@+id/p10"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
 
-                <ImageView
-                    android:id="@+id/p11"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
 
-                <ImageView
-                    android:id="@+id/p12"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
 
 
             </LinearLayout>
+
+
+
+
+
+
+
+
+
 
         </ScrollView>
     </RelativeLayout>
