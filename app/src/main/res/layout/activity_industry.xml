@@ -28,7 +28,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="4"
             android:fontFamily="@font/roboto_bold"
-            android:text="ABCD"
+            android:text="Safe issues for Industry"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
             android:textSize="25sp" />
@@ -60,14 +60,8 @@
                     android:fontFamily="@font/roboto_regular"
                     android:textSize="20sp"
 
-                    android:text="In covid-19 period, people are staying in their home than before. For that,artificial traffic light are using less in cities which
-have been saved our energy.Therefore, we can enjoy stars in night sky clearly."/>
-
-
-
-
-
-
+                    android:text="Because of COVID-19 , air quality are improving regularly and on this purpose some owners
+of industrial business are not maintaing proper environmental safety issues which may directly effect in near future."/>
 
                 <ImageView
                     android:layout_marginTop="5dp"
@@ -77,41 +71,8 @@ have been saved our energy.Therefore, we can enjoy stars in night sky clearly."/
                     android:layout_height="wrap_content"/>
 
 
-                <TextView
-                    android:padding="5dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="@font/roboto_regular"
-                    android:textSize="15sp"
-
-                    android:text="Credits: NASA"/>
-
-                <TextView
-                    android:id="@+id/airtext"
-                    android:padding="5dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:fontFamily="@font/roboto_bold"
-                    android:textSize="20sp"
-                    android:text="Click Here to get real time view"/>
-
-
-
-
-
-
-
-
 
             </LinearLayout>
-
-
-
-
-
-
-
-
 
 
         </ScrollView>
