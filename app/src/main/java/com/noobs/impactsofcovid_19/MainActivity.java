@@ -23,8 +23,9 @@ public class MainActivity extends AppCompatActivity {
     private RelativeLayout banglaAct;
     private RelativeLayout worldAct;
     private RelativeLayout prevention;
-    private RelativeLayout helpline , faq, information, myth, handwash, donate;
-    private ImageView credit;
+    private RelativeLayout post;
+    private ImageView info;
+
 
     private TextView greeting;
     @Override
@@ -76,6 +77,27 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
+        post = findViewById(R.id.post);
+        post.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, post.class);
+                startActivity(i);
+            }
+        });
+
+        info = findViewById(R.id.credit);
+        info.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, info.class);
+                startActivity(i);
+            }
+        });
+
+
+
 
 
 

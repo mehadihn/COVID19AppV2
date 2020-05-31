@@ -85,10 +85,12 @@
                     android:layout_gravity="center">
 
                     <ImageView
+                        android:layout_marginLeft="100dp"
                         android:id="@+id/credit"
-                        android:layout_width="30dp"
-                        android:layout_height="30dp"
-                        android:src="@drawable/inf"/>
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/info"/>
+
                 </RelativeLayout>
 
 
@@ -126,7 +128,7 @@
                         android:layout_marginTop="10dp"
                         android:layout_marginRight="20dp"
                         android:layout_marginBottom="10dp"
-                        android:src="@drawable/gif02"
+                        android:src="@drawable/gif01"
 
                         />
 
@@ -136,7 +138,7 @@
                         android:layout_marginTop="10dp"
                         android:layout_marginRight="20dp"
                         android:layout_marginBottom="10dp"
-                        android:src="@drawable/gif01" />
+                        android:src="@drawable/gif02" />
 
                     <pl.droidsonroids.gif.GifImageView
                         android:layout_width="230dp"
@@ -154,7 +156,7 @@
                         android:layout_marginTop="10dp"
                         android:layout_marginRight="20dp"
                         android:layout_marginBottom="10dp"
-                        android:src="@drawable/gif04"
+                        android:src="@drawable/gif07"
 
                         />
 
@@ -174,19 +176,11 @@
                         android:layout_marginTop="10dp"
                         android:layout_marginRight="20dp"
                         android:layout_marginBottom="10dp"
-                        android:src="@drawable/gif6"
+                        android:src="@drawable/gif06"
 
                         />
 
-                    <pl.droidsonroids.gif.GifImageView
-                        android:layout_width="230dp"
-                        android:layout_height="230dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginRight="20dp"
-                        android:layout_marginBottom="10dp"
-                        android:src="@drawable/gif07"
 
-                        />
 
 
                 </LinearLayout>
@@ -319,7 +313,7 @@
                         app:cardElevation="2dp">
 
                         <RelativeLayout
-                            android:id="@+id/helpline"
+                            android:id="@+id/post"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:padding="8dp">

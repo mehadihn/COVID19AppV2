@@ -11,7 +11,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Industry"></activity>
+        <activity android:name=".info"></activity>
+        <activity android:name=".mental" />
+        <activity android:name=".edu" />
+        <activity android:name=".unemp" />
+        <activity android:name=".eco" />
+        <activity android:name=".food" />
+        <activity android:name=".post" />
+        <activity android:name=".Industry" />
         <activity android:name=".Hunting" />
         <activity android:name=".Deforestation" />
         <activity android:name=".prevention" />

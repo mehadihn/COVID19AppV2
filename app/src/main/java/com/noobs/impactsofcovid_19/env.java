@@ -76,7 +76,6 @@ public class env extends AppCompatActivity {
         });
 
         hunting = findViewById(R.id.hunting);
-
         hunting.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
