@@ -40,7 +40,7 @@ public class unemp extends AppCompatActivity {
                 .placeholder(R.drawable.down)
                 .error(R.drawable.fail);
 
-        Glide.with(this).load("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCQppwSwoBMqx3wuD_KoyIFe9i9pXnJjrTRx3zbt4ejSCslxcGTQ&s").apply(options).into(p1);
+        Glide.with(this).load("https://assets.weforum.org/editor/responsive_large_webp_lFOsvoZj7_fLn2itik0uKz35_DZEMBB2hgKYphaxOuw.webp").apply(options).into(p1);
 
     }
 }
