@@ -47,6 +47,59 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_regular"
+                    android:textSize="20sp"
+
+                    android:text="During lockdown period, people are staying in quarantine.As a result, water pollution are decreasing day by day and water quality
+are improving greatly."/>
+
+
+                <ImageView
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/p1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_regular"
+                    android:textSize="15sp"
+
+                    android:text="Chesapeake Bay and surroundings, mosaic of 5 Landsat images taken in October and November 2014. Credit: USGS."/>
+
+
+                <TextView
+                    android:id="@+id/airtext"
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_bold"
+                    android:textSize="20sp"
+                    android:text="Click Here to get real time view"/>
+
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
 
 
 
