@@ -8,14 +8,22 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.request.RequestOptions;
+
 public class env extends AppCompatActivity {
-    private ImageView backbutton;
+    private ImageView backbutton ,p1;
     private LinearLayout air, light, water, deforest, hunting, industry;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_env);
+
+
+        p1 = findViewById(R.id.p1);
+        loadImg();
+
 
         backbutton = findViewById(R.id.backbutton);
 
@@ -87,8 +95,16 @@ public class env extends AppCompatActivity {
             }
         });
 
-
-
-
     }
+
+    private void loadImg(){
+
+        RequestOptions options = new RequestOptions()
+                .placeholder(R.drawable.down)
+                .error(R.drawable.fail);
+
+        Glide.with(this).load("https://www.talentedladiesclub.com/site/wp-content/uploads/Coronavirus_Pandemic_Impact_on_Environment_Blog_Header-Compressed-780x520.png").apply(options).into(p1);
+    }
+
+
 }
