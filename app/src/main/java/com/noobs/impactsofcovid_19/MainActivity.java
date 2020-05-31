@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
     private RelativeLayout env;
     private RelativeLayout banglaAct;
     private RelativeLayout worldAct;
-    private RelativeLayout hospital;
+    private RelativeLayout prevention;
     private RelativeLayout helpline , faq, information, myth, handwash, donate;
     private ImageView credit;
 
@@ -62,6 +62,16 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(MainActivity.this, env.class);
+                startActivity(i);
+
+            }
+        });
+
+        prevention = findViewById(R.id.prevention);
+        prevention.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this, prevention.class);
                 startActivity(i);
 
             }

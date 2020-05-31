@@ -33,6 +33,7 @@
                     android:textColor="#5E5E5E"
                     android:textSize="24dp" />
 
+                <!--
                 <View
                     android:layout_width="40dp"
                     android:layout_height="6dp"
@@ -41,7 +42,7 @@
                     android:background="@drawable/bg_view">
 
                 </View>
-
+                -->
 
 
             </LinearLayout>
@@ -62,9 +63,11 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/roboto_regular"
-                        android:text="Let's Beat COVID-19 Together"
+                        android:text="Impacts of COVID-19"
                         android:textColor="#5E5E5E"
                         android:textSize="18dp" />
+
+                    <!--
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -73,6 +76,8 @@
                         android:text="Stay Home, Stay Safe"
                         android:textColor="#5E5E5E"
                         android:textSize="15dp" />
+                     -->
+
                 </LinearLayout>
                 <RelativeLayout
                     android:layout_width="wrap_content"
@@ -281,7 +286,7 @@
                         app:cardElevation="2dp">
 
                         <RelativeLayout
-                            android:id="@+id/hospital"
+                            android:id="@+id/prevention"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:padding="8dp">
@@ -290,7 +295,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/roboto_bold"
-                                android:text="Hospitals"
+                                android:text="Prevention"
                                 android:textColor="#5E5E5E"
                                 android:textSize="18dp" />
 
@@ -299,7 +304,7 @@
                                 android:layout_height="80dp"
                                 android:layout_alignParentRight="true"
                                 android:layout_alignParentBottom="true"
-                                android:src="@drawable/medical" />
+                                android:src="@drawable/covid" />
 
                         </RelativeLayout>
 
@@ -323,7 +328,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/roboto_bold"
-                                android:text="Emergency"
+                                android:text="Post COVID-19 Effect"
                                 android:textColor="#5E5E5E"
                                 android:textSize="18dp" />
 
@@ -332,7 +337,7 @@
                                 android:layout_height="80dp"
                                 android:layout_alignParentRight="true"
                                 android:layout_alignParentBottom="true"
-                                android:src="@drawable/helpline" />
+                                android:src="@drawable/sick" />
 
                         </RelativeLayout>
 
